@@ -142,3 +142,18 @@ docker-compose.override.yml
 ##################################
 
 _ReSharper*/
+
+
+# Visual Studio Code workspace settings (optional)
+*.code-workspace
+
+# Local SQLite databases (if used)
+*.db
+*.db-shm
+*.db-wal
+
+# Local development HTTPS certificates
+**/https/
+
+# Local user secrets (if using ASP.NET User Secrets)
+**/secrets.json
